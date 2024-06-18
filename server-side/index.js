@@ -9,8 +9,8 @@ const port = 8800;
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "izhai1992",
-    database: "check"
+    password: "",
+    database: ""
 })
 
 //if any error suthetication error occurs use the following code in your mysql local server
